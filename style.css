@@ -1,0 +1,515 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  font-size: 16px;
+  font-family: 'Inter', sans-serif;
+}
+*, input, button, a{
+  font-family: 'Inter', sans-serif;
+
+}
+.navbar__top{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1px 20px;
+}
+.navbar__top-mg{
+  align-items: center;
+}
+.navbar__top-mg span, a{
+  font-size: 12px;
+}
+.navbar__top-mg span{
+  background: darkturquoise;
+  border-radius: 2px;
+  padding: 2px 3px;
+  margin: 0px 5px;
+}
+.navbar__top-mg div,a{
+  color: black;
+  margin: 5px;
+}
+
+/**/
+.navbar__main{
+  display: flex;
+  align-items: center;
+  margin: 5px 30px;
+  max-width: 100%;
+  justify-content: space-between;
+}
+.navbar__main--nav{
+  display: flex;
+  align-items: center;
+}
+.navbar__main--nav li{
+  margin: 10px;
+  padding: 5px;
+}
+.navbar__main--ser{
+  display: flex;
+
+}
+
+
+
+/**/
+.listApi__links span{
+  font-size: 14px;
+  margin: 10px;
+}
+.listApi__links li{
+  font-size: 14px;
+  margin: 10px;
+  color: rgb(121, 118, 118);
+}
+.listApi__links{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/**/
+
+.headerApi ul, li{
+  display: flex;
+  margin: 1rem 2rem 0rem 2rem;
+  justify-content: space-between;
+  flex-wrap: wrap; 
+  max-width: 1600px;
+  font-size: 12px;
+}
+.headerApi ul{
+  align-items: center;
+  margin: 10px 20px;
+}
+/**Banner**/
+
+.banner{
+  background-image: url(https://www.digitalocean.com/assets/community/community_hero-da9b609fe076da1123ffbd80d369b564017ef8080c4fe3511fe03a5a7ce675a3.jpg);
+  width: 100%;
+  height: 420px;
+  align-items: center;
+  justify-content: center;
+  padding: 100px 150px;
+  color: aliceblue;
+}
+.banner h2,h1,span{
+  display: flex;
+  justify-content: center;
+  margin: 20px 20px;
+
+}
+.banner h2{
+  font-size: 18px;
+}
+.banner h1{
+  font-size: 44px;
+}
+.banner span{
+  font-size: 24px;
+}
+/*ASK*/
+.ask__main{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  background-color: white ;
+  padding: 0px 20px 0px 20px;
+  height: 160px;
+  width: 800px;
+  margin: 0px 20%;
+  position: relative;
+  bottom: 60px;
+  border-radius: 5px;
+  box-shadow: 2px 1px 1px darkgray;
+  
+}
+.ask__titut{
+  text-align: start;
+  padding: 50px 0px 50px 0px;
+  margin: 0px 30px 0px 30px;
+}
+.ask__main .button{
+  text-align: start;
+  padding: 50px 0px 50px 0px;
+  
+}
+.ask__main .button button{
+ 
+  height: 60px;
+  width: 160px;
+  border: 2px solid dodgerblue;
+  background: white;
+}
+.ask__main .button button:hover {
+  color: white;
+  border: 2px solid white;
+  background: dodgerblue;
+}
+
+.ask__main .button a{
+  color: dodgerblue;
+  font-weight: 800;
+  font-size: 16px;
+}
+.ask__main .button a:hover{
+  color: white;
+  font-weight: 800;
+  font-size: 16px;
+}
+
+/**/
+.cards{
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;  
+}
+.cards__titulo{
+justify-content: start;
+margin: 0px 0px 0px 46px;
+
+}
+.cards li{
+  margin: 20px;
+  width: 280px;
+  height: 480px;
+  padding: 20px;
+  align-items: center;
+  text-align: start;
+}
+.cards img{
+  margin-top: 1rem;
+}
+.cards span,h3, p{
+  margin: 5px;
+}
+.cards spa{
+  font-size: 12px;
+}
+.cards p{
+  font-size: 16px;
+}
+.cards h3{
+  font-size: 18px;
+}
+.painel{
+  margin: 10px 30px;
+}
+/*Content Types*/
+
+
+.contentTypes{
+  background: rgb(243, 241, 241);
+  display: flex;
+  justify-content: space-between;
+}
+.types div{
+  display: inline-flex;
+  font-size: 18px;
+  font-weight: 700;
+  left: 20px;
+  position: absolute;
+  top: 1820px;
+  margin-left: 35px;
+}
+.types{
+  display: flex;
+  justify-content: start;
+ flex-wrap: wrap;
+ margin: 50px 5px 50px 50px;
+}
+.types__list{
+ width: 250px;
+ height: 160px;
+ background: white;
+ margin: 10px;
+ padding: 20px;
+ text-align: center;
+}
+.types__list h3{
+  font-size: 20px;
+}
+.types__list p{
+  font-size: 15px;
+}
+/***/
+.topics div{
+  display: inline-flex;
+  font-size: 18px;
+  font-weight: 700;
+  position: absolute;
+  top: 1820px;
+  padding-left: 5px;
+}
+.topics {
+  display: flex;
+  justify-content: start;
+  flex-wrap: wrap;
+  height: 250px;
+  max-width: 330px;
+  margin: 50px 50px 50px 5px;
+
+}
+.topics__list{
+  height: 40px;
+  width: 100px;
+  background:lightgrey;
+  margin: 10px;
+  justify-content: center;
+  text-align: center;
+  
+}
+.topics__list span{
+  font-size: 12px;
+  margin: 10px;
+}
+
+/**/
+.eventos{
+  max-width: 100%;
+}
+.eventos__titul{
+  margin: 30px 200px;
+  
+}
+.eventos__titul h2{
+  text-align: center;
+  font-size: 36px;
+}
+.eventos__titul p{
+  font-size: 24px;
+  text-align: center;
+  color: darkgray;
+}
+
+.evento__list{
+  margin: 15px 10%;
+  align-items: center;
+}
+.evento__list-li{
+  color: aliceblue;
+  display: inline-flex;
+  text-align: start;
+  width: 270px;
+  height: 250px;
+  padding: 20px;
+  flex-wrap: wrap;
+  background-image: url(https://www.digitalocean.com/assets/community/illustrations/event_1c-ec0245db84bc527b9de6ca4efbb47e98823b443ca829e53f3936fcf6b6bff0f5.jpg);
+
+}
+.evento__list a{
+  text-decoration: none;
+  margin-top: 2rem;
+  color: aliceblue;
+}
+.evento__list h3{
+  margin: 0;
+}
+.evento__list span{
+  margin: 0;
+}
+.buttonEvent{
+  display: flex;
+  background-color: dodgerblue;
+  color: white;
+  padding: 10px;
+  margin: 20px 40%;
+  border-radius: 5px;
+  height: 40px;
+  width: 150px;
+  justify-content: center;
+}
+/**/
+.perfil__bk{
+  background: rgb(243, 241, 241);
+  padding: 10px 40px;
+  position: relative;
+  text-align: center;
+}
+.perfil__top h2{
+  text-align: center;
+  font-size: 36px;
+  padding: 30px 0px;
+  
+}
+.parfil__list{
+  display: flex;
+  padding: 20rem;
+  
+}
+.perfil__li img{
+  border-radius: 50px;  
+}
+.perfil__li{
+  text-align: start;
+  display: inline-flex;
+  padding: 10px;
+  width: 130px;
+  flex-wrap: wrap;
+  margin: 30px 10px;
+  justify-content: center;
+ 
+} 
+.footerPerf{
+  margin: 20px 30%;
+}
+.footerPerf span{
+  margin: 20px 10%;
+  font-size: 24px;
+  font-weight: 100;
+}
+.buttonPerf{
+  background-color: dodgerblue;
+  color: white;
+  font-size: 16px;
+  padding: 20px 50px;
+  height: 55px;
+  width: 165px;
+  text-align: center;
+  border-radius: 5px;
+}
+/**/
+
+.about{
+  margin: 30px 20% 50px 20%;
+  position: relative;
+  justify-content: center;
+  text-align: center;
+}
+.about img, h2, p{
+  margin-bottom: 30px;
+}
+.about h2{
+  font-size: 36px;
+  font-weight: bold;
+}
+.about p{
+  font-size: 24px;
+  color: darkgrey;
+}
+/**/
+
+.painel__foot{
+  background: rgb(243, 241, 241);
+  margin: 30px 0px 0px 0px;
+  padding: 40px;
+  display: flex;
+  max-width: 100%;
+}
+.painel__foot--cards{
+  height:460px ;
+  width: 380px;
+  margin: 20px;
+  background: white;
+  padding: 20px;
+  text-align: center;
+  justify-content: center
+}
+.painel__foot--cards h3{ 
+  text-transform: uppercase;
+  font-size:12px;
+  padding: 5px 0px;
+  height: 30px;
+  width: 380px;
+}
+.painel__foot--cards span{
+  font-size: 20px;
+  margin: 0 20px;
+  height: 200px;
+  width: 400;
+}
+/**/
+.list__foot{
+  background: rgb(243, 241, 241);
+  display: flex;
+  height: 40px;
+  justify-content: center;
+}
+.list__foot li{
+  margin: 5px 10px;
+  font-size: 14px;
+
+}
+.list__foot span{
+  margin: 5px 10px;
+  font-size: 14px;
+color: gray;
+}
+/**/
+
+.footerTop{
+  background: #0069ff;
+  display: flex;
+  padding: 30px 80px;
+  color: white;
+}
+.footerTop  div{
+  padding: 50px;
+}
+.footerTop__main h3{
+font-size: 24px;
+margin-bottom: 20px;
+
+}
+.footerTop__main p{
+  font-size: 20px;
+}
+.footerTop__main a{
+  color: white;
+  font-size: 18px;
+}
+.footerTop img{
+  position: relative;
+  top: 50px;
+  
+}
+
+
+/**/
+.footer_reserved li{
+  width: 260px;
+  margin: 0;
+  display: flex;
+}
+.footer_reserved span{
+  margin-top: 20px;
+  font-size: 12px;
+  display:flex;
+  margin: 0;
+}
+.footer{
+  position: absolute;
+  background-color: #000e29;
+  width: 100%;
+  height: 100%;
+  padding: 50px 50px;
+  display: flex; 
+  flex-wrap: wrap;
+  
+}
+.footer ul{
+  color: white;
+  margin: 10px;
+
+}
+.footer__list{
+  display: block;
+  justify-content: right;
+  flex-wrap: wrap;
+  
+}
+.footer a{
+  color: white;
+  margin: 0;
+}
+.footer a:hover{
+  color: #0069ff;
+}
+.footer span{
+  text-align: start;
+}
